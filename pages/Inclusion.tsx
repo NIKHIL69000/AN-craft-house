@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Inclusion = () => {
   return (
@@ -63,9 +64,9 @@ export const Inclusion = () => {
         <div className="text-center pt-10 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Support Our Mission</h2>
           <p className="text-gray-600 mb-8">Every purchase you make directly contributes to sustaining this inclusive ecosystem.</p>
-          <a href="/#/shop" className="inline-block px-8 py-3 bg-brand-600 text-white font-semibold rounded-md hover:bg-brand-700 transition-colors">
+          <Link to="/shop" className="inline-block px-8 py-3 bg-brand-600 text-white font-semibold rounded-md hover:bg-brand-700 transition-colors">
             Shop Handmade
-          </a>
+          </Link>
         </div>
       </div>
     </div>
